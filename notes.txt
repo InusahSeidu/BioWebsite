@@ -1,0 +1,13 @@
+
+Resume Website
+
+Hoempage:
+    Name
+    NavBar
+        Links
+            Github
+            About Me
+            Projects
+            LinkedIn
+
+            navabr

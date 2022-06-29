@@ -9,24 +9,17 @@
         <!--Sets viewing screen based on device accessing site-->
         <meta name="viewport" content="width=divice-width, initial-scale=1">
         <!--link to style sheets-->
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <style>
-
         /*formatting background image*/
-        .picture_format {
+        .picture_format{
             background-image: url('./img/clouds.webp');
-            font-family: "Lucida Console","Courier New", monospace;
-            font-weight: bolder;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            min-height: 100%;
-            height: 1000px;
+    
         }
         /*.header_format {
             font-size: 100px;
@@ -44,19 +37,29 @@
             text-align: center;
             margin: auto;
         }*/
+
+        .name_plate
+        {
+            font-size: 40px;
+            font-family: "Lucida Console","Courier New", monospace;
+            font-weight: bolder;
+            max-width: 700px;
+            margin: auto;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
     
-    <div class="picture_format w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle">
-          <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Inusah 
-            <span class="w3-hide-small">
-                Seidu
-            </span> 
-        </span>
-        </div>
-      </div>
+    <div>
+        <body class="name_plate">
+            Inusah Seidu
+        </body>
+        <body class="picture_format">
+             
+        </body>
+    </div>
 
-    <body class="picture_format">
-        
-    </body>
+    
 </html>
